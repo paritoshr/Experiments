@@ -16,7 +16,7 @@ namespace Experiments
             // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=316888
             var options = new IdentityServerOptions()
             {
-                SigningCertificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(@"C:\Users\e3018814\Desktop\Certificate\Fortinet_CA_SSLProxy.cer"),
+                SigningCertificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(@"\Certificate\Fortinet_CA_SSLProxy.cer"),
                 RequireSsl = false,
                 Factory = ISfactory
 
